@@ -1,24 +1,26 @@
 .container{
   background-color: rgb(12, 12, 59);
-  height: 100vh;
-  width: 100vw;
   color: white;
+  height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   .title{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    h1{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      svg {
-        margin: 20px;
-      }
+    svg{
+      height: 50px;
+      width: 50px;
     }
+    h1{
+      text-align: center;
+    }
+  }
+  .citation{
+    display: flex;
+    flex-direction: column;
     .name{
       align-self: flex-end;
     }
